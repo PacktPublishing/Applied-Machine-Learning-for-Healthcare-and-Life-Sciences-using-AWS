@@ -7,7 +7,7 @@ import pandas as pd
 transcribe = boto3.client('transcribe')
 
 job_name = "med-transcription-job"
-job_uri = "s3://aws-experiments-b18961/4/audio.flac"
+job_uri = "" #enter the S3 URI of the audio file between the double quotes
 
 try:
     transcribe.delete_medical_transcription_job(MedicalTranscriptionJobName=job_name)
@@ -15,6 +15,8 @@ try:
 except:
      print('creating new transcript job med-transcription-job')
 
+# if len(transcribe.get_medical_transcription_job(MedicalTranscriptionJobName=job_name))>0:
+#     transcribe.delete_medical_transcription_job(MedicalTranscriptionJobName=job_name)
 
 transcribe.start_medical_transcription_job(
      MedicalTranscriptionJobName = job_name,
