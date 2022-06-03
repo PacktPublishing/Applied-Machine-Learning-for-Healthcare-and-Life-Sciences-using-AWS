@@ -15,8 +15,6 @@ try:
 except:
      print('creating new transcript job med-transcription-job')
 
-# if len(transcribe.get_medical_transcription_job(MedicalTranscriptionJobName=job_name))>0:
-#     transcribe.delete_medical_transcription_job(MedicalTranscriptionJobName=job_name)
 
 transcribe.start_medical_transcription_job(
      MedicalTranscriptionJobName = job_name,
