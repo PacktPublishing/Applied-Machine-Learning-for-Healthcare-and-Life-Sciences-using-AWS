@@ -22,7 +22,7 @@ transcribe.start_medical_transcription_job(
      LanguageCode = 'en-US',
      Specialty = 'PRIMARYCARE',
      Type = 'DICTATION',
-     OutputBucketName = 'aws-experiments-b18961',
+     OutputBucketName = 'output bucket name', #enter the output buket name here
      OutputKey='output/'
   )
 
@@ -34,7 +34,7 @@ while True:
     time.sleep(5)
 print('transcription complete. Transcription Status: ',status['MedicalTranscriptionJob']['TranscriptionJobStatus'])
 s3 = boto3.client('s3')
-s3.download_file('bucket', 'key', 'transcript.json') #enter the name of the output bucket and key between the single quotes.
+s3.download_file('output bucket name', 'output/medical/med-transcription-job.json', 'transcript.json') #enter the output bucket name here.
 
 json_file = "transcript.json"
 
