@@ -34,7 +34,7 @@ while True:
     time.sleep(5)
 print('transcription complete. Transcription Status: ',status['MedicalTranscriptionJob']['TranscriptionJobStatus'])
 s3 = boto3.client('s3')
-s3.download_file('aws-experiments-b18961', 'output/medical/med-transcription-job.json', 'transcript.json')
+s3.download_file('bucket', 'key', 'transcript.json') #enter the name of the output bucket and key between the single quotes.
 
 json_file = "transcript.json"
 
