@@ -4,7 +4,7 @@
 
 This is the code repository for [Applied Machine Learning for Healthcare and Life Sciences using AWS](<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>), published by Packt.
 
-**Transformational AI implementations for biotech, clinical, and healthcare organizations	**
+**Transformational AI implementations for biotech, clinical, and healthcare organizations**
 
 ## What is this book about?
 While machine learning is not new, it's only now that we are beginning to uncover its true potential in the healthcare and life sciences industry. The availability of real-world datasets and access to better compute resources have helped researchers invent applications that utilize known AI techniques in every segment of this industry, such as providers, payers, drug discovery, and genomics.
@@ -33,7 +33,6 @@ The code will look like the following:
 ```
 from sagemaker.workflow.pipeline import Pipeline
 pipeline_name = f"mypipeline"
-
 ```
 
 **Following is what you need for this book:**
