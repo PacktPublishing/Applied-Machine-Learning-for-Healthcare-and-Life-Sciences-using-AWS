@@ -1,8 +1,8 @@
 # Applied Machine Learning for Healthcare and Life Sciences using AWS
 
-<a href="<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>"><img src="https://static.packt-cdn.com/products/<13-P ISBN>/cover/smaller" alt="<Book Name>" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/applied-machine-learning-for-healthcare-and-life-sciences-using-aws/9781804610213"><img src="https://static.packt-cdn.com/products/9781804610213/cover/smaller" alt="Applied Machine Learning for Healthcare and Life Sciences using AWS" height="256px" align="right"></a>
 
-This is the code repository for [Applied Machine Learning for Healthcare and Life Sciences using AWS](<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>), published by Packt.
+This is the code repository for [Applied Machine Learning for Healthcare and Life Sciences using AWS](https://www.packtpub.com/product/applied-machine-learning-for-healthcare-and-life-sciences-using-aws/9781804610213), published by Packt.
 
 **Transformational AI implementations for biotech, clinical, and healthcare organizations**
 
