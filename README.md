@@ -58,3 +58,8 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Get to Know the Author
 **Ujjwal Ratan** is a Principal AI/Machine Learning Solutions Architect at AWS where he leads the machine learning solutions architecture group dedicated to healthcare and life sciences. Over the years, Ujjwal has been a thought leader in the healthcare and life sciences industry, helping multiple Global Fortune 500 organizations achieve their innovation goals by adopting machine learning. His work involving the analysis of medical imaging, unstructured clinical text and genomics has helped AWS build products and services that provide highly personalized and precisely targeted diagnostics and therapeutics. Ujjwal's work has also been featured in multiple global conferences, peer-reviewed publications or technical and scientific blogs.	
+
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781804610213">https://packt.link/free-ebook/9781804610213 </a> </p>
